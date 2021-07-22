@@ -1,0 +1,32 @@
+{
+    "name": "hufeiyu/call-baidu-voice",
+    "description": "hufeiyu call baidu voice",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hufeiyu",
+            "email": "1207155125@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hufeiyu\\CallBaiduVoice\\": "src/",
+            "Hufeiyu\\CallBaiduVoice\\": "src/lib/AipBase.php",
+            "Hufeiyu\\CallBaiduVoice\\": "src/AipBodyAnalysis.php",
+            "Hufeiyu\\CallBaiduVoice\\": "src/AipContentCensor.php",
+            "Hufeiyu\\CallBaiduVoice\\": "src/AipFace.php",
+            "Hufeiyu\\CallBaiduVoice\\": "src/AipImageClassify.php",
+            "Hufeiyu\\CallBaiduVoice\\": "src/AipImageSearch.php",
+            "Hufeiyu\\CallBaiduVoice\\": "src/AipKg.php",
+            "Hufeiyu\\CallBaiduVoice\\": "src/AipNlp.php",
+            "Hufeiyu\\CallBaiduVoice\\": "src/AipOcr.php",
+            "Hufeiyu\\CallBaiduVoice\\": "src/AipSpeech.php",
+            "Hufeiyu\\CallBaiduVoice\\": "src/CallBaiduVoice.php"
+        }
+    }
+}
