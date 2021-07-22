@@ -1,7 +1,6 @@
 <?php
 
-
-namespace App\Libs\baidu_video;
+require_once 'AipSpeech.php';
 use AipSpeech;
 
 const APP_ID = '24577284';
