@@ -18,4 +18,9 @@
             "Hufeiyu\\CallBaiduVoice\\": "src/"
         }
     }
+    "autoload-dev": {
+        "psr-4": {
+            "Hufeiyu\\CallBaiduVoice\\": "src/"
+        }
+    }
 }
