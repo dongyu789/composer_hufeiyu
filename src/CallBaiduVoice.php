@@ -2,7 +2,8 @@
 
 namespace Hufeiyu\CallBaiduVoice;
 
-include_once __DIR__ . './AipSpeech.php';
+require_once 'AipSpeech.php';
+
 use AipSpeech;
 
 const APP_ID = '24577284';
